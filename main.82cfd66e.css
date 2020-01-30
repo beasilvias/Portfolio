@@ -184,7 +184,7 @@ h2, h3, p {
 h2, h3 {
     page-break-after: avoid;
 }
-.navbar {
+.-bar {
     display: none;
 }
 .btn>.caret, .dropup>.btn>.caret {
@@ -1658,12 +1658,12 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 .btn-default.focus, .btn-default:focus {
     color: #333;
-    background-color: #e6e6e6;
+    background-color: #5EC5B4;
     border-color: #000;
 }
 .btn-default.active, .btn-default:active, .btn-default:hover, .open>.btn-default.dropdown-toggle {
     color: #333;
-    background-color: #e6e6e6;
+    background-color: #5EC5B4;
     border-color: #141414;
 }
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.btn-default.dropdown-toggle.focus, .open>.btn-default.dropdown-toggle:focus, .open>.btn-default.dropdown-toggle:hover {
@@ -1746,22 +1746,22 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 .btn-info {
     color: #fff;
-    background-color: #f8bb56;
-    border-color: #f8bb56;
+    background-color: #5EC5B4;
+    border-color: #5EC5B4;
 }
 .btn-info.focus, .btn-info:focus {
     color: #fff;
-    background-color: #f6a725;
-    border-color: #c67f08;
+    background-color: #47baa7;
+    border-color: ##178572;
 }
 .btn-info.active, .btn-info:active, .btn-info:hover, .open>.btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #f6a725;
-    border-color: #f6a31b;
+    background-color: #47baa7 ;
+    border-color: #249c88;
 }
 .btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open>.btn-info.dropdown-toggle.focus, .open>.btn-info.dropdown-toggle:focus, .open>.btn-info.dropdown-toggle:hover {
     color: #fff;
-    background-color: #ed980a;
+    background-color: #47baa7;
     border-color: #c67f08;
 }
 .btn-info.active, .btn-info:active, .open>.btn-info.dropdown-toggle {
@@ -2926,7 +2926,7 @@ a.label:focus, a.label:hover {
     background-color: #f8bb56;
 }
 .label-info[href]:focus, .label-info[href]:hover {
-    background-color: #f6a725;
+    background-color: #5EC5B4;
 }
 .label-warning {
     background-color: #f0ad4e;
@@ -3548,7 +3548,7 @@ td.visible-print, th.visible-print {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    color:#000000;
+    color:#68bbb0;
 }
 .grid-item .project-description .project-text-holder .project-text-inner {
     display: table-cell;
@@ -3571,7 +3571,7 @@ td.visible-print, th.visible-print {
     transition: all .1s linear;
 }
 .fa-icon {
-    color: #000;
+    color: #000/;
     width: 32px;
     height: 32px;
     display: inline-block;
@@ -3713,4 +3713,10 @@ main {
     float: left;
     margin-right: 5px;
 }
+
+.mysection {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=main.85741bff.map*/
