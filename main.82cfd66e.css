@@ -3572,7 +3572,7 @@ td.visible-print, th.visible-print {
 }
 .fa-icon {
     color: #000/;
-    width: 32px;
+    width: 35px;
     height: 32px;
     display: inline-block;
     line-height: 32px;
@@ -3671,7 +3671,7 @@ main {
     color: #5fc5b5;
 }
 .nav-footer-social-buttons {
-    margin-bottom: 0;
+    margin-bottom: ;
     margin-left: -10px;
 }
 .navbar-default {
@@ -3718,5 +3718,10 @@ main {
   display: flex;
   justify-content: center;
 }
+.mydiv div {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
 
 /*# sourceMappingURL=main.85741bff.map*/
